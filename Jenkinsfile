@@ -6,7 +6,7 @@ pipeline {
         AWS_ACCOUNT_ID = '975050198487'
         ECR_REPOSITORY = 'container-github-lza-config-file-update-sf'
         IMAGE_TAG = 'latest'
-        LAMBDA_FUNCTION_NAME = 'lambda_container'
+        LAMBDA_FUNCTION_NAME = 'container-github-lza-config-file-update-sf'
     }
 
     stages {
